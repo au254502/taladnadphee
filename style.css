@@ -48,3 +48,8 @@ button, .btn, .action {
 button:hover, .btn:hover, .action:hover {
   background-color: #f57c00; /* ส้มเข้มขึ้น */
 }
+.product img {
+  border-radius: 8px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
