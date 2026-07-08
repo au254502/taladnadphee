@@ -51,12 +51,8 @@ button:hover, .btn:hover, .action:hover {
 .product-images {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;   /* ถ้าหน้าจอเล็ก รูปจะย้ายลงมา */
   gap: 20px;
   margin: 15px 0;
-}
-
-.product-images img {
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
