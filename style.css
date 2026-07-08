@@ -20,6 +20,7 @@ button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;
+  display: inline-block;     /* บังคับให้ปุ่มแสดง */
 }
 
 button:hover {
