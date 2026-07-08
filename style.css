@@ -48,8 +48,15 @@ button, .btn, .action {
 button:hover, .btn:hover, .action:hover {
   background-color: #f57c00; /* ส้มเข้มขึ้น */
 }
-.product img {
-  border-radius: 8px;
+.product-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* ระยะห่างระหว่างรูป */
   margin: 15px 0;
+}
+
+.product-images img {
+  width: 200px;
+  border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
