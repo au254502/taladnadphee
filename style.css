@@ -56,7 +56,7 @@ button:hover, .btn:hover, .action:hover {
 }
 
 .product-images img {
-  width: 250px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+
