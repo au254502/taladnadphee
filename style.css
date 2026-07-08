@@ -1,27 +1,27 @@
+/* ทดสอบให้เห็นผลชัดเจน */
 body {
+  background-color: red;   /* พื้นหลังสีแดงสด */
+  color: white;            /* ตัวหนังสือสีขาว */
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
 }
 
 header {
-  background-color: #4CAF50;
-  color: white;
+  background-color: black; /* Header สีดำ */
   text-align: center;
   padding: 1rem;
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: yellow; /* ปุ่มสีเหลือง */
+  color: black;
   border: none;
   padding: 10px 20px;
   margin: 5px;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 16px;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: orange; /* เวลาเอาเมาส์ไปวาง ปุ่มเปลี่ยนเป็นสีส้ม */
 }
